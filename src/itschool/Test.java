@@ -1,13 +1,18 @@
 package itschool;
 
+import java.time.LocalDateTime;
+
 public class Test {
-    /*
+   // /*
 //Documentation
-     */
+     // */
     //getUserName
     //VacuumCleaner  (PascalCase)
     public static void main(String[] args) {
         System.out.println("Hello World");
+
+        LocalDateTime time = LocalDateTime.now();
+        System.out.println(time);
 
         Animal animal = new Animal();
         animal.getAnimalName();
@@ -16,6 +21,20 @@ public class Test {
         User user = new User();
         user.setEmail("adrian@google.ro");
         System.out.println(user.getEmail());
+
+        User name = new User();
+        name.setFirstName("Adrian");
+        System.out.println(name.getFirstName());
+
+        User name1 = new User();
+        name1.setLastName("Nechifor");
+        System.out.println(name1.getLastName());
+
+        User age = new User();
+        age.setAge(26);
+        System.out.println(age.getAge());
+
+
 
 
 

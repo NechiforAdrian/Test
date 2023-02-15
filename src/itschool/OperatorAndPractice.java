@@ -75,7 +75,7 @@ public class OperatorAndPractice {
         System.out.println();
 
         // But Variables can change like...
-        anotherVariables = " Now i type same variables but i cane change her print... ";
+        anotherVariables = " Now i type same variables but i can change her print... ";
         System.out.println(anotherVariables);
 
         System.out.println();
@@ -171,5 +171,9 @@ public class OperatorAndPractice {
         //exercise
         number7 = number4 + 80;
         System.out.println(number7+number4);
+
+        int age = 20;
+        age = age +10;
+        System.out.println(age);
     }
 }

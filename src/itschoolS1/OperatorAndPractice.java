@@ -1,4 +1,4 @@
-package itschool;
+package itschoolS1;
 
 public class OperatorAndPractice {
     public static void main(String[] args) {
@@ -175,5 +175,6 @@ public class OperatorAndPractice {
         int age = 20;
         age = age +10;
         System.out.println(age);
+
     }
 }

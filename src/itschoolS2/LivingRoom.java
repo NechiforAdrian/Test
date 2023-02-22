@@ -1,4 +1,4 @@
-package itschool1;
+package itschoolS2;
 
 public class LivingRoom {
     private String colour;

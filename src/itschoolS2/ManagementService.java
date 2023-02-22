@@ -1,4 +1,4 @@
-package itschool1;
+package itschoolS2;
 
 public class ManagementService {
     public static void main(String[] args) {

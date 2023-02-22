@@ -1,4 +1,4 @@
-package itschool;
+package itschoolS1;
 
 import java.time.LocalDateTime;
 

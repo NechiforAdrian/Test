@@ -13,9 +13,10 @@ public class Animal {
     //getAnimalName -method name, it can be anything
     //() - holds method's parameters
     //return -java keyword
-    private String getAnimalName(){
+    private String getAnimalName() {
         return animalName;
     }
+
     public int getAnimalAge() {                //Metod*
         int someNumber = 23;
         return someNumber;
@@ -24,16 +25,19 @@ public class Animal {
         //     return "papagal";
         //}
     }
-    public void setAnimalName(){
+
+    public void setAnimalName() {
         animalName = "Veverita";
     }
-    public void setAnimalColour(){
+
+    public void setAnimalColour() {
         animalColour = "red";
     }
 }
+
 //when we don't declare an access modifier, it is the default one
 //we can do that: |class Dog extends Animal| it means class Dog is parent of Animal.
-class Dog{
+class Dog {
     public static void main(String[] args) {
         Animal animal1 = new Animal();
         Animal animal2 = new Animal();

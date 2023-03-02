@@ -4,15 +4,15 @@ public class PracticeWithStrings {
 
     public static void main(String[] args) {
         String animal = "Elephant";
-        //System.out.println(animal.length());                              //ctrl plus click to object documentation
-        //for(int index = 0; index < animal.length(); index++){
-            //animal.indexOf(animal.indexOf(index));
-            //System.out.println(index);
-            //System.out.println(animal.charAt(index));
-            //System.out.println(animal.substring(0, 3));
-            //System.out.println(animal.substring(3));
-            //String user = "adi@gmail.com   ";
-            //System.out.println(user.trim());
+        System.out.println(animal.length());                              //ctrl plus click to object documentation
+        for(int index = 0; index < animal.length(); index++){
+            animal.indexOf(animal.indexOf(index));
+            System.out.println(index);
+            System.out.println(animal.charAt(index));
+            System.out.println(animal.substring(0, 3));
+            System.out.println(animal.substring(3));
+            String user = "adi@gmail.com   ";
+            System.out.println(user.trim());
         String userInput = "AdriaN@gmail.com    ";
         String userInputPrepared = userInput.trim().toLowerCase();
         System.out.println("User prepared: " + userInputPrepared);
@@ -24,4 +24,4 @@ public class PracticeWithStrings {
         }
         }
     }
-//} do not forget...to
+}// do not forget...to

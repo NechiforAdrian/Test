@@ -6,7 +6,7 @@ public class ForConstruction {
 //      int[] myArray = {1, 2, 3, 4};
         //start from 0 //0  1  2  3
 //      String[] stringArray = {"dog", "cat", "horse"};
-        //start from 0 //  0      1       2
+        //start from 0        //  0      1       2
 //      System.out.println(myArray.length);
 //      System.out.println("Print int from index 1: " + myArray[1]);
 //      System.out.println("Print int from index 1: " + stringArray[0]);

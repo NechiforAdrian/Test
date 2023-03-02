@@ -23,34 +23,43 @@ public class LivingRoom {
     //(String colour) - method parameter of type String, and name colour
     //this.colour - colour variables declare above, at line 5
 
-   public String getColour(){
+    public String getColour() {
         return colour;
-   }
-    public void setColour(String colour){
+    }
+
+    public void setColour(String colour) {
         this.colour = colour;
     }
-    public double getWidthRoom(){
+
+    public double getWidthRoom() {
         return widthRoom;
     }
-    public void setWidthRoom(double widthRoom){
+
+    public void setWidthRoom(double widthRoom) {
         this.widthRoom = widthRoom;
     }
-    public double getLengthRoom(){
+
+    public double getLengthRoom() {
         return lengthRoom;
     }
-    public void setLengthRoom(double lengthRoom){
+
+    public void setLengthRoom(double lengthRoom) {
         this.lengthRoom = lengthRoom;
     }
-    public boolean isTv(){
-       return tv;
+
+    public boolean isTv() {
+        return tv;
     }
-    public void setTv(boolean tv){
-       this.tv = tv;
+
+    public void setTv(boolean tv) {
+        this.tv = tv;
     }
-    public boolean isWifi(){
+
+    public boolean isWifi() {
         return wifi;
     }
-    public void setWifi(boolean wifi){
+
+    public void setWifi(boolean wifi) {
         this.wifi = wifi;
     }
 
@@ -102,7 +111,7 @@ public class LivingRoom {
         this.windowsLength = windowsLength;
     }
 }
-      ////class Multimedia{
-      //private boolean tv;
-        //private String tvBrand;
-     //}
+////class Multimedia{
+//private boolean tv;
+//private String tvBrand;
+//}

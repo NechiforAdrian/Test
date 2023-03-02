@@ -10,34 +10,43 @@ public class UserBankAccount {
 
     //ctrl+insert to open the menu or click right
 
-    public double getBalance(){
+    public double getBalance() {
         return balance;
     }
-    public void setBalance(double balance){
+
+    public void setBalance(double balance) {
         this.balance = balance;
     }
-    public String getUsername(){
+
+    public String getUsername() {
         return username;
     }
-    public void setUsername(String username){
+
+    public void setUsername(String username) {
         this.username = username;
     }
-    public String getIban(){
+
+    public String getIban() {
         return iban;
     }
-    public void setIban(String iban){
+
+    public void setIban(String iban) {
         this.iban = iban;
     }
-    public String getBic(){
+
+    public String getBic() {
         return bic;
     }
-    public void setBic(String bic){
+
+    public void setBic(String bic) {
         this.bic = bic;
     }
-    public UserDetails getUserDetails(){
+
+    public UserDetails getUserDetails() {
         return userDetails;
     }
-    public void setUserDetails(UserDetails userDetails){
+
+    public void setUserDetails(UserDetails userDetails) {
         this.userDetails = userDetails;
     }
 

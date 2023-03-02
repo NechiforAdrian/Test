@@ -1,4 +1,4 @@
-package itschoolS1;
+package challenge.uri;
 
 public class OperatorAndPractice {
     public static void main(String[] args) {

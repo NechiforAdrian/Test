@@ -2,5 +2,11 @@ package itschoolS12;
 
 public class Human {
 
-    private String humanName;
+    String humanName;
+    String sex;
+    String height;
+    String weight;
+
+    void eat(){}
+    void work(){}
 }

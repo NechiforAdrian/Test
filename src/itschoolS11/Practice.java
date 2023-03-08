@@ -18,6 +18,8 @@ public class Practice {
         studentList.add("Silviu");
         studentList.add("Cristi");
 
+        System.out.println(studentList);
+
 
 
     }

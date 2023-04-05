@@ -29,7 +29,7 @@ public class ManagementService {
         boolean isWindowsRoom = livingRoom.isWindows();
 
 
-//to move some line code from top or bottom you need to press ctrl+shift adn arrow up or down
+//to move some line code from top or bottom you need to press ctrl+shift and arrow up or down
         //For use this the class at the bottom need to be static.
         double feeForRoomSize = getFeeForRoomSize(livingRoom.getLengthRoom(), livingRoom.getWidthRoom());
         double feeForUtilities = getFeeForUtilities(isCouchRoom, isTvRoom, isAcRoom, isWifiRoom, isWindowsRoom);

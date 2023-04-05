@@ -24,8 +24,4 @@ public class SquareSum {
         return sum;
     }
 
-    //  public static int squareSum(int[] n){
-
-//    }
-
 }

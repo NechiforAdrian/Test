@@ -16,7 +16,7 @@ public class Test { //class custom
         set.add(user2);
         System.out.println(set.size());
 
-        System.out.println(user1); //we get memory reference but if we want see what is in
-        //we need in class user override toString()
+        System.out.println(user1); //we get memory reference but if we want see what is inside
+        //we need in class user override toString() method.
     }
 }
